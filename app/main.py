@@ -16,7 +16,7 @@ async def get_info(
     current_day = datetime.now(pytz.utc).strftime("%A")
 
     # Define GitHub URLs
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
+    github_file_url = "https://github.com/codynego/SimpleApi_stage1/tree/master/app"
     github_repo_url = "https://github.com/codynego/SimpleApi_stage1"
 
     # Create the JSON response
